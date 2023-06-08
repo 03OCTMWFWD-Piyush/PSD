@@ -1,0 +1,354 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"montserrat, sans-serif";
+  /* overflow:hidden; */
+}
+
+#header{
+  background: url(../PSD/Image/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(3\).png) no-repeat center center/cover;
+  height: 700px;
+}
+
+.nav-shadow{
+  background-color:black; 
+
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto ;
+}
+
+.row{
+  display: flex;
+} 
+
+.col-50{
+  /* width: 50%; */
+}
+
+.search i{
+  color: #ffffff;
+  font-size: 25px;
+  /* padding:0px 80px ; */
+}
+ 
+li{
+  list-style-type: none;
+}
+
+.navbar{
+  display: flex;
+  /* padding: 5px 0px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navmenu{
+  /* text-indent: 100px; */
+  /* padding-left: 70px; */
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+.juty-spc-btw{
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+   font-size: 25px;
+   padding: 20px;
+   color:#ffffff;
+   font-weight:400px;
+  font-family: "Montserrat";
+}
+
+/* .manin-text{
+  padding: 100px 0px;
+  margin-bottom: 20px;
+} */
+
+h1{
+  
+  padding: 20px 0px;
+ font-size: 120px;
+ color: #ffffff;
+ font-weight: 700;
+   /* text-align: center; */
+}
+
+p{
+  padding: 0px 0px 20px;
+  font-size: 30px;
+   color: #ffffff;
+  font-weight: 400px;
+}
+
+button{
+  margin: 10px 0px 10px;
+  padding: 10px 30px;
+  font-size: 25px;
+  text-transform:uppercase;
+  font-weight: 500;
+  text-align:center;
+  background-color:red;
+  color: white;
+  
+}
+h2{
+  padding: 10px 0px;
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family:montserrat;
+  text-align: center;
+}
+ .nav{
+    text-align: center;
+ }
+
+
+#am{
+ /* height: 800px; */
+  color: white;
+  background-color: #e8631c;
+}
+.am-wr{
+ height: 1000px;
+}
+
+.odi{
+  padding: 50px 0px;
+}
+.text-wraper{
+  padding: 0px 200px;
+  
+}
+h2{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+.row{
+  gap: 40px;
+}
+.col-33{
+  width: 33.33%;
+  color: black;
+  padding: 20px 30px 0px 30px;
+}
+.disc{
+  text-align: center;
+  padding: 30px;
+  background-color: #303030;
+}
+.square{
+  text-align: center;
+  padding: 30px;
+  background-color: #303030;
+}
+.circle{
+  text-align: center;
+  padding: 30px;
+  background-color: #303030;
+}
+
+.stat{
+ color: white;
+ background-color: #303030;
+ height: 800px;
+ }
+
+.text{
+  padding: 50px 150px;
+
+}
+.text-wrapper{
+  padding: 0 200px;
+}
+.row gap{
+  gap: 40px;
+}
+.col-33{
+ background-color: #e8631c;
+  width: 33.33%;
+}
+.col-wrapper{
+  text-align: center;
+  padding: 30px;
+}
+.thar1{
+ text-align: center;
+ padding: 30px;
+}
+.thar2{
+ text-align: center;
+ padding: 30px;
+}
+.bt{
+ color: white;
+ background-color: black;
+}
+.stat-wrapper{
+ /* height: 700px; */
+}
+
+
+
+#pm{
+ /* background-color: orangered; */
+}
+.a-wr{
+ background-color: #e8631c;
+ height: 600px;
+}
+.col-50{
+ width: 50%;
+}
+.col-500{
+width: 50%;
+padding: 200px 10px 5px 40px;
+}
+.row-1{
+ display: flex;
+}
+.ad{
+ color: white;
+ background-color: black;
+}
+h4{
+ color: white;
+ font-size: 47px;
+}
+
+
+#vk{
+ /* background-color: orangered; */
+}
+.container-2{
+ background-color: #e8631c;
+ height: 600px;
+}
+h4{
+ color: white;
+ font-size: 47px;
+}
+
+.row-2{
+ display:flex
+}
+.ab{
+ color:white;
+ background-color: black;
+}
+.av{
+ width: 50%;
+ padding: 200px 10px 5px 40px;
+}
+.col-50{
+ width: 50%;
+}
+
+
+#piyush{
+ background-color: #303030;
+}
+.wd-1{
+ height: 550px;
+}
+.wd-3{
+ text-align: center;
+ padding: 80px 0px 0px 0px;
+}
+.wd-2 p{
+padding: 20px 300px 50px 300px;
+}
+.rw-1{
+ display: flex;
+}
+.col-35{
+ width: 33.33%;
+}
+.wd-5{
+ padding: 40px 0PX 0PX 0PX;
+}
+h5{
+ font-size: 45px;
+color:#ffffff;
+text-align: center;
+}
+
+.p{
+ text-align: center;
+ font-size: 30px;
+ padding: 10px;
+}
+
+
+#amd{
+ background-color: #e8631c;
+ background:url(../PSD/Image/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(11\).png)no-repeat center center/cover;
+ height: 600px;
+}
+.form{
+ text-align: center;
+ padding: 20px 300px 50px 300px;
+ 
+}
+.a{
+ text-align: center;
+ padding: 150px 0px 0px 0px ;
+}
+
+
+#b{
+ background-color: #e8631c;
+ height: 600px;
+}
+.css{
+ text-align: center;
+ padding: 20px 300px 50px 300px;
+}
+.simg{
+text-align: center;
+padding: 150px 0px 0px 0px;
+}
+.bin{
+ font-size: 25px;
+ padding: 10px 100px 10px 60px;
+}
+
+
+#virat{
+ background-color:#303030;
+ height: 450px;
+}
+.row-3{
+ display: flex;
+ justify-content: space-between;
+}
+.moj{
+ padding: 70px 0px 0px 0px;
+}
+.col-55{
+ width: 50%;
+}
+.col-333{
+ width:33.33%
+}
+.hr{
+ color: white;
+ font-size: 30px;
+}
+.music{
+ font-size: 30px;
+ /* width: 33.33%; */
+ /* padding: 0px 50px 10px 10px; */
+}
+.u p{
+ font-size: 20px;
+}
+

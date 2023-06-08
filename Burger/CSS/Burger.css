@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background: url(../image/burger\ bg\ img.png) no-repeat center center/cover;
+}
+
+.hd-wr {
+    height: 700px;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #000000 85%, #000000 100%);
+}
+
+.logo {
+    padding: 28px 0px 0px 0px;
+}
+
+.navmenu {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    /* align-items: center; */
+    padding: 60px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.txt {
+    padding: 70px 0px 0px 0px;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
+
+.txt p {
+    color: white;
+    font-size: 25px;
+    padding: 30px 20px 10px 10px;
+}
+
+.txt button {
+    color: white;
+    background-color:red;
+    padding: 15px 50px 12px 50px;
+    border-radius: 30px;
+}
+
+/* Header Section 1 CSS Ends Here */
+
+
+
+/* Our Chef section 2 CSS */
+
+
+
+#chef {
+    background-color: wheat;
+}
+
+.chef-wr {
+    height: 800px;
+}
+
+.tx {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+}
+
+.txt-wr h2 {
+    font-size: 54px;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+}
+
+.txt-wr p {
+    /* width: 1821px; */
+    height: 210px;
+    font-size: 25px;
+    color: #f64b3c;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 30px 300px 0px 300px;
+}
+
+.row {
+    display: flex;
+    /* padding: 0px 0px 0px 100px; */
+}
+
+.col-33 {
+    width: 33.33%;
+}
+
+.circle {
+    text-align: center;
+}
+
+.col-33-wr h3 {
+    text-align: center;
+    padding: 18px 0px 0px 0px;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+}
+
+.col-33-wr p {
+    height: 119px;
+    padding: 10px 0px 0px 0px;
+    font-size: 25px;
+    color: #f64b3c;
+    font-weight: 600;
+    font-family: "Nunito";
+    text-align: center;
+}
+
+.img1 {
+    border-radius: 50%;
+}
+
+
+
+
+/* Best Burger Section 3 CSS */
+
+
+
+#best-burger {
+    background-color: #f64b3c;
+}
+
+.best-wr {
+    height: 700px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.im1 {
+    border-radius: 50%;
+}
+
+.image {
+    padding: 120px 0px 0px 0px;
+}
+
+.tx1 h3 {
+    padding: 140px 0px 35px 0px;
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+}
+
+.tx1 p {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    padding: 0px 0px 50px 0px;
+}
+
+.tx1 button {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    border-radius: 30px;
+    padding: 15px 50px 12px 50px;
+}
+
+
+
+
+/* Big Burger Section 4 CSS */
+
+
+
+#big-burger {
+    background-color: #f6eedf;
+}
+
+.big-wr {
+    height: 700px;
+}
+
+.tex1 h3 {
+    padding: 140px 0px 35px 0px;
+    font-size: 75px;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+}
+
+.tex1 p {
+    font-size: 30px;
+    color: #f64b3c;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0px 0px 50px 0px;
+}
+
+.tex1 button {
+    padding: 15px 50px 12px 50px;
+    border-radius: 32px;
+    font-size: 25px;
+    color: white;
+    background-color: #f64b3c;
+}
+
+.img-pad {
+    padding: 0px 0px 0px 140px;
+}
+
+
+
+
+/* Stat Section 4 CSS */
+
+
+
+#stat {
+    background-color: #f64b3c;
+}
+
+.stat-wr {
+    height: 800px;
+}
+
+.stat-tx {
+    padding: 0px 0px 0px 0px;
+}
+
+.stat-tx-wr h4 {
+    font-size: 62px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+    padding: 90px 0px 35px 0px;
+}
+
+.stat-tx-wr p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 0px 345px 80px 350px;
+}
+
+.circle1 {
+    border-radius: 50%;
+    text-align: center;
+    padding: 100px;
+    border: 5px solid white;
+}
+
+.gap {
+    gap: 30px;
+}
+
+.circle1 h2 {
+    font-size: 102px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+}
+
+.circle1 p {
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+
+
+
+/* Popular Package Section 5 CSS */
+
+
+
+#pkg {
+    background-color: #f6eedf;
+}
+
+.pkg-wr {
+    height: 700px;
+}
+
+.pkg-tx {
+    font-size: 70px;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+    padding: 40px 0px 80px 0px;
+}
+
+.bak {
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin: 30px;
+}
+
+.pk-tx h5 {
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.pkg-img {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.rs {
+    font-size: 33px;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+}
+
+.p {
+    font-size: 25px;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+}
+
+.pk-tx button {
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #f64b3c;
+    font-weight: 700;
+    font-family: "Montserrat";
+    border-radius: 50px;
+    padding: 13px 45px 12px 45px;
+    /* text-align: center; */
+    margin: 0px 0px 0px 100px;
+}
+
+
+
+
+/* Barry Section 6 CSS */
+
+
+
+#barry {
+    background-color: #f64b3c;
+}
+
+.barry-wr {
+    height: 600px;
+}
+
+.barry-tx {
+    padding: 200px 230px 50px 230px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+}
+
+.barry-tx-wr h5 {
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Calistoga";
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+
+
+
+
+/* Update Section 7 CSS */
+
+
+
+#update {
+    background-color: #f6eedf;
+}
+
+.up-wr {
+    height: 600px;
+}
+
+.up-tx-wr h3 {
+    font-size: 70px;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+
+.up-tx-wr p {
+    font-size: 30px;
+    color: #f64b3c;
+    font-weight: 400;
+    font-family: "Nunito";
+    text-align: center;
+    padding: 30px 410px 80px 410px;
+}
+
+.form {
+    /* text-align: center; */
+    /* position: relative; */
+}
+
+.form-wr {
+    text-align: center;
+    /* position: relative; */
+}
+
+.email {
+    opacity: 0.502;
+    font-size: 25px;
+    color: #835e3f;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    /* position: absolute; */
+    padding: 7px 180px 7px 20px;
+}
+
+.sub {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #f64b3c;
+    font-weight: 400;
+    font-family: "Nunito";
+    text-align: center;
+    border-radius: 30px;
+    padding: 11px 15px 10px 15px;
+    /* position: absolute; */
+}
+
+
+
+
+/* Last Section Css */
+
+
+
+#title {
+    background-color: #222222;
+    color: white;
+}
+
+.title-wr {
+    height: 550px;
+}
+
+.col-33 {
+    width: 33.33%;
+}
+
+.me {
+    display: flex;
+    display: inline-block;
+}
+
+.title-tx h6 {
+    font-size: 35px;
+    padding: 120px 0px 20px 0px;
+}
+
+.title-tx p {
+    padding: 0px 400px 10px 0px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.search-1 {
+    font-size: 30px;
+    margin: 15px 0px 0px 0px;
+}
+
+.title-tex h6 {
+    font-size: 35px;
+    padding: 120px 0px 2px 0px;
+}
+
+.title-tex p {
+    font-size: 20px;
+    line-height: 38px;
+}
